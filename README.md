@@ -15,10 +15,6 @@ So this is the project: take pictures, cut out the face, analyze it with an algo
 
 This project was mostly concentrated on deep learning. I used MTCNN to detect the faces, then from tensorflow.keras.applications imported MobileNet cutted away the last 10 layers and put up my own layers that i trained with adatabase of people with diagnosed depression and people from the Boston City database that have a probability of 3% oh having depression. The resulting value has then been fet into a LSTM deep learning algorithm, that created the melody. I found the LSTM from an other Githun contributor and adapted it to my needs. It uses the library music21, created by a MIT professor that converts music .midi files into numpy arrays. The training data for the LSTM was most of Chopin piano music and enden up creating a melody like this one https://soundcloud.com/max-mix-9/chopin-output-2021-12-15-14-17-19
 
-## Purpose
+## Conclusion
 
-
-
-
-
-
+The main purpose was to sonnect different algorithms and experiment with deep learning in general. The combination of CNN was quite easy while snipping together CNNs and a LSTM was quite more challenging. Also the library music21 was quite difficult to apply. If I would do it again, I would defenitely use CNNs to create music as well. Mainly it was a great project, on one side, because I got to play around with deep learning and managed to create music out of a picture, I got to use Google Collab as well, witch was great fun and deep dived into music from a numeric perspective (which turned out to be a much more vast and challenging field than I could have ever expected). On the other hand it felt to me as a journey, spamming from the ideation last summmer, then the elaboration, data collection, paper reading to the actual putting together all the snippets of code, learning about the algorithms and packaging it all up into a story. This was the finalproject of my Data Science bootcamp and somehow rapped all the experience in one 15 min presentation. How my intentions went from idea to music, while my expectation shifted to reality and my face became a song.
